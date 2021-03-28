@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Login Page</title>
+      <link rel="stylesheet" type="text/css" href="css\login_page_2.css">   
+      <script src="script_js\login_page_2_javascript.js"></script>
+    </head>
+<body>
+<div class="overlay">
+    <!-- LOGN IN FORM  -->
+    <form name="loginform" method="post" action="" enctype="multipart/form-data" onsubmit="return(validateForm());" >
+       <!--   con = Container  for items in the form-->
+       <div class="con">
+       <!--     Start  header Content  -->
+       <header class="head-form">
+          <h2>Log In</h2>
+          <!--     A welcome message or an explanation of the login form -->
+          <p>login here using your username and password</p>
+       </header>
+       <!--     End  header Content  -->
+       <br>
+       <div class="field-set">
+         
+          <!--   user name -->
+             <span class="input-item">
+               
+             </span>
+            <!--   user name Input-->
+             <input class="form-input" name="usr" id="username" type="text" placeholder="UserName" required>
+         
+          <br>
+          
+         
+               <!--   Password -->
+         
+          <span class="input-item">
+            
+           </span>
+          <!--   Password Input-->
+          <input class="form-input" type="password" name="pword" id="password" placeholder="Password"  required>
+         
+    
+         
+         
+          <br>
+    <!--        buttons -->
+    <!--      button LogIn -->
+          <input class="submit_button" type="submit" id="submit"class="log-in" value="Login" >
+       </div>
+
+      
+         
+    <!--   End Conrainer  -->
+      </div>
+      
+      <!-- End Form -->
+    </form>
+    </div>
+</body>
+</html>
